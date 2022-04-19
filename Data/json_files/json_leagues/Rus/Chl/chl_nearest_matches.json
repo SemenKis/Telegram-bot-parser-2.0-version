@@ -1,0 +1,42 @@
+[
+    {
+        "date": "18 апр, Пн",
+        "records": [
+            {
+                "team": "ММГ",
+                "team-opposite": "ЦСК",
+                "time": "17:00"
+            }
+        ]
+    },
+    {
+        "date": "20 апр, Ср",
+        "records": [
+            {
+                "team": "ММГ",
+                "team-opposite": "ЦСК",
+                "time": "17:00"
+            }
+        ]
+    },
+    {
+        "date": "22 апр, Пт",
+        "records": [
+            {
+                "team": "ЦСК",
+                "team-opposite": "ММГ",
+                "time": "19:30"
+            }
+        ]
+    },
+    {
+        "date": "24 апр, Вс",
+        "records": [
+            {
+                "team": "ЦСК",
+                "team-opposite": "ММГ",
+                "time": "16:30"
+            }
+        ]
+    }
+]

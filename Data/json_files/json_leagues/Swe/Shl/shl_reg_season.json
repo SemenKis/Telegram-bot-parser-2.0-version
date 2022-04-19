@@ -1,0 +1,174 @@
+[
+    {
+        "records": [
+            {
+                "team-position": 1,
+                "team-name": "RBK",
+                "GP": 52,
+                "REGW": 27,
+                "NONREGW": 5,
+                "REGL": 11,
+                "G": 154,
+                "GA": 129,
+                "DIFF": 25,
+                "PTS": 100
+            },
+            {
+                "team-position": 2,
+                "team-name": "LHF",
+                "GP": 52,
+                "REGW": 25,
+                "NONREGW": 7,
+                "REGL": 12,
+                "G": 161,
+                "GA": 117,
+                "DIFF": 44,
+                "PTS": 97
+            },
+            {
+                "team-position": 3,
+                "team-name": "SAIK",
+                "GP": 52,
+                "REGW": 27,
+                "NONREGW": 5,
+                "REGL": 17,
+                "G": 167,
+                "GA": 122,
+                "DIFF": 45,
+                "PTS": 94
+            },
+            {
+                "team-position": 4,
+                "team-name": "FHC",
+                "GP": 52,
+                "REGW": 21,
+                "NONREGW": 10,
+                "REGL": 17,
+                "G": 155,
+                "GA": 139,
+                "DIFF": 16,
+                "PTS": 87
+            },
+            {
+                "team-position": 5,
+                "team-name": "VLH",
+                "GP": 52,
+                "REGW": 22,
+                "NONREGW": 6,
+                "REGL": 17,
+                "G": 153,
+                "GA": 144,
+                "DIFF": 9,
+                "PTS": 85
+            },
+            {
+                "team-position": 6,
+                "team-name": "FBK",
+                "GP": 52,
+                "REGW": 22,
+                "NONREGW": 6,
+                "REGL": 20,
+                "G": 153,
+                "GA": 149,
+                "DIFF": 4,
+                "PTS": 82
+            },
+            {
+                "team-position": 7,
+                "team-name": "OHK",
+                "GP": 52,
+                "REGW": 20,
+                "NONREGW": 8,
+                "REGL": 19,
+                "G": 144,
+                "GA": 123,
+                "DIFF": 21,
+                "PTS": 81
+            },
+            {
+                "team-position": 8,
+                "team-name": "LIF",
+                "GP": 52,
+                "REGW": 20,
+                "NONREGW": 4,
+                "REGL": 21,
+                "G": 148,
+                "GA": 154,
+                "DIFF": -6,
+                "PTS": 75
+            },
+            {
+                "team-position": 9,
+                "team-name": "IKO",
+                "GP": 52,
+                "REGW": 20,
+                "NONREGW": 3,
+                "REGL": 23,
+                "G": 140,
+                "GA": 163,
+                "DIFF": -23,
+                "PTS": 72
+            },
+            {
+                "team-position": 10,
+                "team-name": "BIF",
+                "GP": 52,
+                "REGW": 17,
+                "NONREGW": 6,
+                "REGL": 23,
+                "G": 126,
+                "GA": 138,
+                "DIFF": -12,
+                "PTS": 69
+            },
+            {
+                "team-position": 11,
+                "team-name": "LHC",
+                "GP": 52,
+                "REGW": 16,
+                "NONREGW": 8,
+                "REGL": 23,
+                "G": 121,
+                "GA": 142,
+                "DIFF": -21,
+                "PTS": 69
+            },
+            {
+                "team-position": 12,
+                "team-name": "MIF",
+                "GP": 52,
+                "REGW": 17,
+                "NONREGW": 4,
+                "REGL": 23,
+                "G": 134,
+                "GA": 153,
+                "DIFF": -19,
+                "PTS": 67
+            },
+            {
+                "team-position": 13,
+                "team-name": "DIF",
+                "GP": 52,
+                "REGW": 14,
+                "NONREGW": 5,
+                "REGL": 27,
+                "G": 130,
+                "GA": 169,
+                "DIFF": -39,
+                "PTS": 58
+            },
+            {
+                "team-position": 14,
+                "team-name": "TIK",
+                "GP": 52,
+                "REGW": 14,
+                "NONREGW": 5,
+                "REGL": 29,
+                "G": 133,
+                "GA": 177,
+                "DIFF": -44,
+                "PTS": 56
+            }
+        ]
+    }
+]
