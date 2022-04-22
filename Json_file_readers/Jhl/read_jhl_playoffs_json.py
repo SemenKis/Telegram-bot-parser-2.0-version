@@ -8,6 +8,6 @@ def read_jhl_playoffs_json(path, chat):
     with open(path, 'r', encoding='utf-8') as file:
         data = json.load(file)
         for item in data:
-            bot.send_message(chat, f"<b>{item['teams'][1]} vs {item['teams'][0]}</b>", parse_mode='html')
+            bot.send_message(chat, f"<b>{item['teams'][0]} vs {item['teams'][1]}</b>", parse_mode='html')
             for team_records in item['records']:
                 bot.send_message(chat, team_records)

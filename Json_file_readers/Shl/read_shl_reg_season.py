@@ -19,4 +19,4 @@ def read_shl_reg_season_json(path, chat):
                                        f"GA: {team_info['GA']}\n"
                                        f"DIFF: {team_info['DIFF']}\n"
                                        f"PTS: {team_info['PTS']}\n",
-                                       parse_mode='html')  
+                                       parse_mode='html')

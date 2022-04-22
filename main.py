@@ -26,28 +26,29 @@ def return_reply_keybroad(text):
 
 @bot.message_handler(commands='start')
 def start(message):
-    bot.send_message(message.chat.id, "Hi")
+    msg = f'<b>Hi {message.from_user.first_name} {message.from_user.last_name}</b>\ndo you wanna see something 😏? if you want, please send /show command'
+    bot.send_message(message.chat.id, msg, parse_mode='html')
 
 @bot.message_handler(commands='show')
 def show(message):
-    bot.send_message(message.chat.id, "choose", reply_markup=return_inline_keybroad())
+    bot.send_message(message.chat.id, "choose hockey league 🏒🥅", reply_markup=return_inline_keybroad())
 
 @bot.callback_query_handler(func=lambda c: True)
 def callback(call):
     if call.data == 'hhl':
-        bot.send_message(call.message.chat.id, "Hi", reply_markup=return_reply_keybroad('HHL'))
+        bot.send_message(call.message.chat.id, "HHL", reply_markup=return_reply_keybroad('HHL'))
 
     if call.data == 'jhl':
-        bot.send_message(call.message.chat.id, "Hi", reply_markup=return_reply_keybroad('JHL'))
+        bot.send_message(call.message.chat.id, "JHL", reply_markup=return_reply_keybroad('JHL'))
 
     if call.data == 'chl':
-        bot.send_message(call.message.chat.id, "Hi", reply_markup=return_reply_keybroad('CHL'))
+        bot.send_message(call.message.chat.id, "CHL", reply_markup=return_reply_keybroad('CHL'))
 
     if call.data == 'nhl':
-        bot.send_message(call.message.chat.id, "Hi", reply_markup=return_reply_keybroad('NHL'))
+        bot.send_message(call.message.chat.id, "NHL", reply_markup=return_reply_keybroad('NHL'))
 
     if call.data == 'shl':
-        bot.send_message(call.message.chat.id, "Hi", reply_markup=return_reply_keybroad('SHL'))
+        bot.send_message(call.message.chat.id, "SHL", reply_markup=return_reply_keybroad('SHL'))
 
 @bot.message_handler(content_types='text')
 def answer(message):
